@@ -54,7 +54,7 @@ First of all, we created the project based into an Arduino UNO template. After t
 
 Finally, we connected all the elements into a schema as we can see in the following figure.
 
-<p align="center"><img src="https://github.com/DamarisMenfer/KiCad/blob/master/Images/PCB 3D Up side.PNG" width="400"></p>
+<p align="center"><img src="https://github.com/MOSH-Insa-Toulouse/Delorme_Mendes_Gas_Sensor/tree/master/Images/Schema.PNG" width="400"></p>
 
 This schema is called “SchieldProject.sch”. We divided the schema into 5 different blocks. The first one is the circuit to amplificate the signal of the gas sensor. After that we have 2 minors blocks: the buzzer and the LED. The fourth block is composed by the Lora module and to finish we have the Arduino block.
 
@@ -68,15 +68,15 @@ After doing the circuit schema, we created some footprints that we needed. The f
 
 Then, we associated the components with their respective footprints and we made the routing of the PCB. The result is shown in the following figure.
 
-<p align="center"><img src="https://github.com/DamarisMenfer/KiCad/blob/master/Images/PCB 3D Up side.PNG" width="400"></p>
+<p align="center"><img src="https://github.com/MOSH-Insa-Toulouse/Delorme_Mendes_Gas_Sensor/tree/master/Images/Bottom View.PNG" width="400"></p>
 
 3D top view of the PCB:
 
-<p align="center"><img src="https://github.com/DamarisMenfer/KiCad/blob/master/Images/PCB 3D Up side.PNG" width="400"></p>
+<p align="center"><img src="https://github.com/MOSH-Insa-Toulouse/Delorme_Mendes_Gas_Sensor/tree/master/Images/Top 3D View.PNG" width="400"></p>
 
 3D bottom view of the PCB:
 
-<p align="center"><img src="https://github.com/DamarisMenfer/KiCad/blob/master/Images/PCB 3D Up side.PNG" width="400"></p>
+<p align="center"><img src="https://github.com/MOSH-Insa-Toulouse/Delorme_Mendes_Gas_Sensor/tree/master/Images/Bottom 3D View.PNG"></p>
 
 ### Conclusion
 
