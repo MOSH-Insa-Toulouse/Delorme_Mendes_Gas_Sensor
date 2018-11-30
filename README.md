@@ -16,19 +16,20 @@ The first step of this project was to assembly all the components on a protoboar
 
 After that, we built the communication between our Lora module and The Things Network site. To do that, we added some configurations in the web site. We created our device in the web site, we configured the Device EUI to our Lora module and we configured the code on the Arduino using the Application EUI and the App Key according to the web site. The configurations were done as followed:
 
-<p align="center"><img src="https://github.com/DamarisMenfer/KiCad/blob/master/Images/PCB 3D Up side.PNG" width="400"></p>
+<p align="center"><img src="https://github.com/MOSH-Insa-Toulouse/Delorme_Mendes_Gas_Sensor/blob/master/Images/Capturar2.PNG" width="400"></p>
 
 Once we made sure the LoRa communication was working, , we tested the circuit on the protoboard. We managed to get live information from the circuit to The Things Network site: 
 
-<p align="center"><img src="https://github.com/MOSH-Insa-Toulouse/Delorme_Mendes_Gas_Sensor/tree/master/Images/Capture5.PNG" width="400"></p>
+<p align="center"><img src="https://github.com/MOSH-Insa-Toulouse/Delorme_Mendes_Gas_Sensor/blob/master/Images/Capture5.PNG" width="700"></p>
 
 When the CO2 threshold is crossed, the buzzer is activate and the red led is fired. When the CO2 level goes back to normal, the buzzer is stop and the green led is fired. Our circuit was working properly:
 
-<p align="center"><img src="https://github.com/DamarisMenfer/KiCad/blob/master/Images/PCB 3D Up side.PNG" width="400"></p>
+<p align="center"><img src="https://github.com/MOSH-Insa-Toulouse/Delorme_Mendes_Gas_Sensor/blob/master/Images/IMG_20181128_161023483.jpg" width="200"></p>
+<p align="center"><img src="https://github.com/MOSH-Insa-Toulouse/Delorme_Mendes_Gas_Sensor/blob/master/Images/IMG_20181128_161027830.jpg" width="200"></p>
 
 The LoRa module send the information about the level of gas to the web site all the time. When the Level of gas is too high, LoRa sends and alert message.
 
-<p align="center"><img src="https://github.com/DamarisMenfer/KiCad/blob/master/Images/PCB 3D Up side.PNG" width="400"></p>
+<p align="center"><img src="https://github.com/MOSH-Insa-Toulouse/Delorme_Mendes_Gas_Sensor/blob/master/Images/Capture4.PNG" width="200"></p>
 
 The Arduino code is available in the “Arduino Code” folder. 
 
