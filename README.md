@@ -12,7 +12,7 @@ The followings sections are going to show all the results that we obtained in th
 
 The first step of this project was to assembly all the components on a protoboard to make sure that our system works. In order to validate our circuit and to make sure it works, we first assembled the electronic elements using a protoboard.
 
-<p align="center"><img src="https://github.com/MOSH-Insa-Toulouse/Delorme_Mendes_Gas_Sensor/tree/master/Images/IMG_20181128_160956658.jpg" width="400"></p>
+![alt text](https://github.com/MOSH-Insa-Toulouse/Delorme_Mendes_Gas_Sensor/tree/master/Images/IMG_20181128_160956658.jpg")
 
 After that, we built the communication between our Lora module and The Things Network site. To do that, we added some configurations in the web site. We created our device in the web site, we configured the Device EUI to our Lora module and we configured the code on the Arduino using the Application EUI and the App Key according to the web site. The configurations were done as followed:
 
