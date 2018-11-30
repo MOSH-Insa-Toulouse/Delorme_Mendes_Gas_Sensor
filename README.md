@@ -18,7 +18,7 @@ After that, we built the communication between our Lora module and The Things Ne
 
 <p align="center"><img src="https://github.com/MOSH-Insa-Toulouse/Delorme_Mendes_Gas_Sensor/blob/master/Images/Capturar2.PNG" width="450"></p>
 
-Once we made sure the LoRa communication was working, , we tested the circuit on the protoboard. We managed to get live information from the circuit to The Things Network site: 
+Once we made sure the LoRa communication was working, we tested the circuit on the protoboard. We managed to get live information from the circuit to The Things Network site: 
 
 <p align="center"><img src="https://github.com/MOSH-Insa-Toulouse/Delorme_Mendes_Gas_Sensor/blob/master/Images/Capture5.PNG" width="700"></p>
 
